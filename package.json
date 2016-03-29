@@ -1,0 +1,26 @@
+{
+  "name": "steal-ts",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+
+  },
+  "author": "retro",
+  "license": "MIT",
+  "dependencies": {},
+  "system": {
+    "ext": {
+      "ts": "steal-ts"
+    },
+    "meta" : {
+      "./typescriptServices.js" : {
+        "format" : "global"
+      }
+    }
+  },
+  "devDependencies": {
+    "steal": "^0.15.3",
+    "steal-tools": "^0.15.5"
+  }
+}
